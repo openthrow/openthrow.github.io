@@ -5,6 +5,6 @@ description: Axle connection system
 
 Default connection system
 
-## Further reading
+## Where to download
 
-- Read [about how-to guides](https://diataxis.fr/how-to-guides/) in the Diátaxis framework
+- this is the default system that is on all ot compatible yo-yos

@@ -10,6 +10,10 @@ export default defineConfig({
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/sevenfoxes/openThrow' }],
 			sidebar: [
 				{
+					label: 'Getting Started',
+					slug: 'getting-started'
+				},
+				{
 					label: 'Self-Sealing Stem Bolt',
 					items: [
 						// Each item here is one entry in the navigation menu.
