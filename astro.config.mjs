@@ -4,7 +4,7 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://openthrow.github.io',
+	site: 'https://openthrow.com',
 	base: '/',
 	outDir: './dist',
 	integrations: [
