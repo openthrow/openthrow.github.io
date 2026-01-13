@@ -10,7 +10,10 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Open Throw',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/sevenfoxes/openThrow' }],
+			social: [
+				{ icon: 'instagram', label: 'Instagram', href: 'https://instagram.com/openthrowyoyo' },
+				{ icon: 'github', label: 'GitHub', href: 'https://github.com/openThrow/openThrow' }
+			],
 			sidebar: [
 				{
 					label: 'Getting Started',
@@ -21,7 +24,6 @@ export default defineConfig({
 				{
 					label: 'Hub',
 					items: [
-						// Each item here is one entry in the navigation menu.
 						{ label: 'overview', slug: 'hub/overview' },
 						{ label: 'Available Hubs',
 							items: [
@@ -34,7 +36,6 @@ export default defineConfig({
 				{
 					label: 'Self-Sealing Stem Bolt',
 					items: [
-						// Each item here is one entry in the navigation menu.
 						{ label: 'overview', slug: 'sssb/overview' },
 						{
 							label: 'interconnect',
